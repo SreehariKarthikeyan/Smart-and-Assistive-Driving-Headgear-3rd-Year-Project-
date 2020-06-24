@@ -1,0 +1,13 @@
+There is also a circuit diagram added.Pls refer to circuit_diagram.PNG
+
+1) First off insert HUD display into the breadboard 
+2) Now grab one of your male to female jumper wires and attach the male end to ground on HUD display. 
+   Then attach the female end to pin 6 on the Pi. Pin 6 is also ground!
+3) Using another male to female jumper wire attach the pin on HUD display labelled 'Vin' to pin 1 on your Pi. This is our power line.
+4) Now we are going to skip over the pin on HUD display that is labelled '3v3'.
+   So using a male to female jumper wire connect the pin on HUD display to pin 24 on Pi.
+5) Now grab another male to female jumper wire and attach the pin labelled 'Rst' on HUD display
+   (the reset pin) to pin 8 of your Pi.
+6) Now attach the pin labelled DC on HUD display to pin 10 on Pi...
+7) Now grab second-to-last male to female jumper wire and attach it to the 'Clk' pin on HUD display. Then attach the other end to pin 23 on Pi.
+8) Finally grab last jumper wire and attach the male end to the last remaining pin of HUD display: the data pin... Then attach the other end to pin 19 on the Pi.
