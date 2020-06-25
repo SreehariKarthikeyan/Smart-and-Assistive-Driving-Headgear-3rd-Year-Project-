@@ -2,11 +2,7 @@
 
 # This Python code is meant for use with the Raspberry Pi and Adafruit's monochrome displays!
 
-# This program is the simplest in the whole repo. All it does is print 3 'Hello!'s in various forms on the OLED display.
-# It illustrates how to change the font size and positioning of text on the OLED... As well as showing how to do 
-# basic text!
-
-# This program was created by The Raspberry Pi Guy!
+# This program is the simplest in the whole repo. All it does is print 3 'Hello!'s in various forms on the HUD display.
 
 # Imports the necessary libraries... Gaugette 'talks' to the display ;-)
 import gaugette.ssd1306
